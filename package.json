@@ -1,6 +1,6 @@
 {
   "name": "lsmock",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Mocks localStorage for environments where it isn't supported (testing, etc)",
   "main": "index.js",
   "scripts": {

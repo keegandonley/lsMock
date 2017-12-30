@@ -32,3 +32,14 @@ As with the web API, you can also access elements directly:
 ```js
 const test = localStorage.foo;
 ```
+
+In the case where your tests expect localStorage to be in some initial state, that can be set as well:
+
+```js
+let localStorage = new lsmock({
+	"foo": "bar",
+	"hello": "world"
+});
+
+console.log(localStorage.getItem("hello"));
+```
