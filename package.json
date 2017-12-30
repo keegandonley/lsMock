@@ -1,0 +1,11 @@
+{
+  "name": "lsmock",
+  "version": "1.0.0",
+  "description": "Mocks localStorage for environments where it isn't supported (testing, etc)",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test.js"
+  },
+  "author": "Keegan Donley",
+  "license": "ISC"
+}
