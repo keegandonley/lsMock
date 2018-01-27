@@ -23,7 +23,7 @@ For use in testing suites where localStorage isn't defined, you could use lsmock
 
 ```js
 const mock = require('lsmock');
-window.localStorage = new mock():
+window.localStorage = new mock();
 ```
 Otherwise, localStorage can be defined in the local scope if desired:
 ```js
