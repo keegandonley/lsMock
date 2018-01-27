@@ -19,6 +19,13 @@ import mock from 'lsmock';
 ```
 ### Usage
 
+For use in testing suites where localStorage isn't defined, you could use lsmock something like this:
+
+```js
+const mock = require('lsmock');
+window.localStorage = new mock():
+```
+Otherwise, localStorage can be defined in the local scope if desired:
 ```js
 let localStorage = new lsmock();
 
