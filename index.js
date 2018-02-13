@@ -1,3 +1,13 @@
+/** 
+ * lsmock by Keegan Donley
+ * www.keegandonley.com
+ * Used for imitating the behavior of localStorage
+
+* Usage:
+* const mock = require('lsmock');
+* window.localStorage = new mock();
+*/
+
 function checkSuccess(key, data) {
 	return !!data[key];
 }
