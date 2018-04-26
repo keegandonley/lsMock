@@ -25,7 +25,7 @@ const lsmock = class lsmock {
 	}
 
 	getItem(key) {
-		return this[key];
+		return this[key] ? this[key] : null;
 	}
 }
 

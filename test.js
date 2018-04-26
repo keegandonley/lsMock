@@ -18,4 +18,8 @@ result = localStore.foo;
 
 equal(result, 'bar', 'get item directly');
 
+result = localStore.getItem('foobar');
+
+equal(result, null, 'return null for an invalid key');
+
 done();
